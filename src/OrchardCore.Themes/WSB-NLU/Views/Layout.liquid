@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ Culture.Name }}">
+  <head>  
+    <link rel="stylesheet" href="/WSB-NLU/css/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="WSB-NLU" />
+    <script src="/WSB-NLU/js/pagescroll.js"></script>   
+    <title>WSB-NLU</title>
+  </head>
+  <body dir="{{ Culture.Dir }}">
+    
+     {% render_section "Content" %}
+
+  <script src="/WSB-NLU/js/toggleIconMenu.js"></script>
+  <script src="/WSB-NLU/js/mainMenuAccordion.js"></script>
+  <script src="/WSB-NLU/js/videoIntro.js"></script>
+  <script src="/WSB-NLU/js/sliderShow.js"></script>
+  <script src="/WSB-NLU/js/3Ditem.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+  <script src="/WSB-NLU/js/gsapAnimation.js"></script>
+  <script>
+       new PageScroll('#pagescroll',{       
+        controlColor: '#ccc'
+   });
+</script>
+</body>
+</html>
